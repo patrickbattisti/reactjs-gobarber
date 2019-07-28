@@ -18,7 +18,7 @@ export const signInSuccess = (token, user) => {
   };
 };
 
-export const signFailute = () => {
+export const signFailure = () => {
   return {
     type: '@auth/SIGN_FAILURE',
   };
