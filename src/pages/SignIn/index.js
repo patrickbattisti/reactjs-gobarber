@@ -24,7 +24,7 @@ const SignIn = () => {
   return (
     <>
       <img
-        src="https://about.canva.com/wp-content/uploads/sites/3/2016/08/logos-1.png"
+        src="https://api.adorable.io/avatars/50/abott@adorable.png"
         alt="GoBarber"
       />
 
