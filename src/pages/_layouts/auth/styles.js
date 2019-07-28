@@ -41,7 +41,7 @@ export const Content = styled.div`
     }
 
     button {
-      margin: 5x 0 0;
+      margin: 5px 0 0;
       height: 44px;
       background: #3b9eff;
       font-weight: bold;
@@ -67,6 +67,7 @@ export const Content = styled.div`
       }
     }
   }
+
   img {
     width: 20px;
     height: 20px;
