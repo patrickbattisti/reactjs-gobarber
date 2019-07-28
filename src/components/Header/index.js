@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Notifications from '~/components/Notifications';
+
 import { Container, Content, Profile } from './styles';
 
 const Header = () => {
@@ -15,6 +17,7 @@ const Header = () => {
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
         <aside>
+          <Notifications />
           <Profile>
             <div>
               <strong>Patrick Battisti</strong>
