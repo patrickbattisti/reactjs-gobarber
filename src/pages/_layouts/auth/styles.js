@@ -69,7 +69,7 @@ export const Content = styled.div`
   }
 
   img {
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
   }
 `;
