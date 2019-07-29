@@ -28,8 +28,15 @@ export const signUpRequest = (name, email, password) => {
     },
   };
 };
+
 export const signFailure = () => {
   return {
     type: '@auth/SIGN_FAILURE',
+  };
+};
+
+export const signOut = () => {
+  return {
+    type: '@auth/SIGN_OUT',
   };
 };
