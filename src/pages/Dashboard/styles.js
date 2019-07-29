@@ -25,10 +25,12 @@ export const Container = styled.div`
   }
 
   ul {
+    height: calc(100vh - 235px);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     margin-top: 30px;
+    overflow-y: auto;
   }
 `;
 
